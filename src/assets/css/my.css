@@ -1,0 +1,41 @@
+.zp-w100{
+  width:100%;
+}
+
+.zp-h100{
+  height:100%;
+}
+
+.zp-bsbb{
+  box-sizing: border-box;
+}
+
+.zp-df{
+  display: flex;
+}
+
+.zp-dfl{
+  display: flex;
+  flex-direction: column;
+}
+
+.zp-jcfs{
+  justify-content: flex-start;
+}
+.zp-jcc{
+  justify-content: center;
+}
+.zp-jcfe{
+  justify-content: flex-end;
+}
+
+.zp-aifs{
+  align-items: flex-start;
+}
+.zp-aic{
+  align-items: center;
+}
+.zp-aife{
+  align-items: flex-end;
+}
+
