@@ -30,30 +30,40 @@ import { default } from './components/HelloWorld.vue';
 </script>
 
 <style lang="less">
-*{
-  padding:0;
-  margin:0;
-}
-html{
-  width:100%;
-  height:100%;
-  padding:0;
-  margin:0;
-  body{
+  *{
+    padding:0;
+    margin:0;
+  }
+  html{
     width:100%;
     height:100%;
     padding:0;
     margin:0;
+    body{
+      width:100%;
+      height:100%;
+      padding:0;
+      margin:0;
+    }
   }
-}
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  text-align: center;
-  color: #2c3e50;
-  padding:0;
-  margin:0;
-  font-size:0.16rem;
-  width:100%;
-  height:100%;
-}
+  #app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    text-align: center;
+    color: #2c3e50;
+    padding:0;
+    margin:0;
+    font-size:0.16rem;
+    width:100%;
+    height:100%;
+  }
+
+  @font-face {
+    font-family: 'iconfont';  /* project id 1898923 */
+    src: url('//at.alicdn.com/t/font_1898923_wd72jl2lbe.eot');
+    src: url('//at.alicdn.com/t/font_1898923_wd72jl2lbe.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_1898923_wd72jl2lbe.woff2') format('woff2'),
+    url('//at.alicdn.com/t/font_1898923_wd72jl2lbe.woff') format('woff'),
+    url('//at.alicdn.com/t/font_1898923_wd72jl2lbe.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_1898923_wd72jl2lbe.svg#iconfont') format('svg');
+  }
 </style>

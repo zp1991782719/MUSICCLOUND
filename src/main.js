@@ -6,7 +6,7 @@ import iView from 'iview';
 import 'iview/dist/styles/iview.css';    // 使用 CSS
 
 
-import '@/assets/css/my.css'
+import '../node_modules/zhujia/css/my.css'
 import http from './utils/axios'
 
 
